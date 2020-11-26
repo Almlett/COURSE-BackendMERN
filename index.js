@@ -22,6 +22,6 @@ server.use('/api/projects', require('./routes/projects.js'));
 server.use('/api/tasks', require('./routes/tasks.js'));
 
 // Start server
-server.listen(port, '0.0.0.0', () => {
+server.listen(port, () => {
     console.log(`Server in ${port}`);
 })
